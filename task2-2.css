@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+h3,#result,button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.dentaku {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: #c0c0c0;
+  display: inline-block;
+  width: 300px;
+}
+
+td {
+  width: 25%;
+}
+
+button {
+  width: 100%;
+}
+
+#result {
+  font-size: 50px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
