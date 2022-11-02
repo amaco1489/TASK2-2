@@ -11,11 +11,14 @@ function click_kb(button) {
     result.innerHTML = eval(result.innerHTML);
   }
   //0
-  else if (result.innerHTML == 0) {
+  else if (result.innerHTML == "0") {
     if (get_value == "+" || get_value == "-" || get_value == "*" || get_value == "/") {
       result.innerHTML = "0";
     }
-    else if (get_value == "00") {
+    else if (get_value == ".") {
+      result.innerHTML = "0.";
+    }
+    else if (get_value === "00") {
       result.innerHTML = "0";
     }
     else {
